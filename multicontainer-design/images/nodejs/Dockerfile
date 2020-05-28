@@ -1,6 +1,6 @@
 FROM    node:8.17
 
-MAINTAINER username <username@example.com>
+MAINTAINER Isaac R. Sartori Junior <isaac.sartori@universo.univates.br>
 
 ENV     NODEJS_VERSION=8.0 \
         HOME=/opt/app-root/src

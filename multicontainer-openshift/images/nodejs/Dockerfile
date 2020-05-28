@@ -1,6 +1,6 @@
 FROM    node
 
-MAINTAINER username <username@example.com>
+MAINTAINER Isaac Roque Sartori Junio <isaac.sartori@universo.univates.br>
 
 USER    node
 

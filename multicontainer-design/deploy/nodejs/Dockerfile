@@ -1,6 +1,6 @@
 FROM	s5c7tg1/nodejs
 ARG NEXUS_BASE_URL
-MAINTAINER username <username@example.com>
+MAINTAINER Isaac Roque Sartori Junior <isaac.sartori@universo.univates.br>
 
 ENV     HOME=/opt/app-root/src
 

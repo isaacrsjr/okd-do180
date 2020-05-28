@@ -25,7 +25,7 @@
       "spec": {
         "containers": [
           {
-            "image": "docker.io/usuario_dockerhub/s5c7tl1-mysql:1.0",
+            "image": "docker.io/isaacrsjr/s5c7tl1-mysql:1.0",
             "name": "mysql",
             "env": [
               {
@@ -86,7 +86,7 @@
                 "cpu": "0.5"
               }
             },
-            "image": "docker.io/usuario_dockerhub/s5c7tl1-quote-php:1.0",
+            "image": "docker.io/isaacrsjr/s5c7tl1-quote-php:1.0",
             "name": "quote-php",
             "ports": [
               {
@@ -97,7 +97,7 @@
             "env": [
               {
                 "name": "MYSQL_ENV_MYSQL_DATABASE",
-                "value": "items"
+                "value": "quotes"
               },
               {
                 "name": "MYSQL_ENV_MYSQL_USER",
