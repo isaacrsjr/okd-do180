@@ -90,8 +90,8 @@
             "name": "quote-php",
             "ports": [
               {
-                "containerPort": 80,
-                "name": "php-http"
+                "containerPort": 8080,
+                "name": "quote-php"
               }
             ],
             "env": [
@@ -124,7 +124,7 @@
       "spec": {
         "ports": [
           {
-            "port": 80
+            "port": 8080
           }
         ],
         "selector": {

@@ -13,7 +13,7 @@
     $row = mysqli_fetch_array($result);
     mysqli_free_result($result);
 
-    print $row[0] . "\n";
+    print "A motivational message: " . $row[0] . "\n";
 
     mysqli_close($link);
 ?>
